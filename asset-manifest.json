@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://certificate.emojicoins.org/static/css/main.0e70e4b3.css",
-    "main.js": "https://certificate.emojicoins.org/static/js/main.1bd479c7.js",
+    "main.js": "https://certificate.emojicoins.org/static/js/main.db7ea17e.js",
     "static/js/787.6cef4065.chunk.js": "https://certificate.emojicoins.org/static/js/787.6cef4065.chunk.js",
     "static/media/003.gif": "https://certificate.emojicoins.org/static/media/003.bd176252813e2d2d2505.gif",
     "static/media/002.gif": "https://certificate.emojicoins.org/static/media/002.f3ce6896f24d05d4ce05.gif",
@@ -12,11 +12,11 @@
     "static/media/Nueva-Std-Bold-Condensed.ttf": "https://certificate.emojicoins.org/static/media/Nueva-Std-Bold-Condensed.c5e3858a6126bd67233a.ttf",
     "index.html": "https://certificate.emojicoins.org/index.html",
     "main.0e70e4b3.css.map": "https://certificate.emojicoins.org/static/css/main.0e70e4b3.css.map",
-    "main.1bd479c7.js.map": "https://certificate.emojicoins.org/static/js/main.1bd479c7.js.map",
+    "main.db7ea17e.js.map": "https://certificate.emojicoins.org/static/js/main.db7ea17e.js.map",
     "787.6cef4065.chunk.js.map": "https://certificate.emojicoins.org/static/js/787.6cef4065.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e70e4b3.css",
-    "static/js/main.1bd479c7.js"
+    "static/js/main.db7ea17e.js"
   ]
 }
