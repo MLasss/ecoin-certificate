@@ -9,7 +9,7 @@ import Error from './components/Error';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/coin/:id" component={App} element={<App />}/>
         <Route path='*' element={<Error error="Coin Template ID was not provided." />} />
