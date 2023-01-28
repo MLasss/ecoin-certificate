@@ -4,10 +4,17 @@ import './styles/App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
+import { HashRouter, Routes, Route } from 'react-router-dom'
+import Error from './components/Error';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <Routes>
+        <Route path="/coin/:id" component={App} element={<App />}/>
+        <Route path='*' element={<Error error="Coin Template ID was not provided." />} />
+      </Routes>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

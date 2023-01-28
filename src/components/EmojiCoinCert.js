@@ -31,6 +31,7 @@ export default class EmojiCoinCert extends Component {
   readJson = async () => {
     const json = require(`../json/faces.json`);
     const data = json.faces.find(face => face.templateId === this.props.coinId);
+    if (data == null) { this.setState({ error : 'incorrect emojiCoin id was provided.'}); return; }
     console.log(data);
     const background = this.getBackGround(data.coinTypeId);
     console.log(background);
