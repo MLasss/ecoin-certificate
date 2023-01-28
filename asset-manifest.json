@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.19b5e3d0.css",
-    "main.js": "./static/js/main.2b5eaacd.js",
-    "static/js/787.6cef4065.chunk.js": "./static/js/787.6cef4065.chunk.js",
-    "static/media/003.gif": "./static/media/003.bd176252813e2d2d2505.gif",
-    "static/media/002.gif": "./static/media/002.f3ce6896f24d05d4ce05.gif",
-    "static/media/001.gif": "./static/media/001.e473c1f4f85021d4c4b9.gif",
-    "static/media/dotim5__.ttf": "./static/media/dotim5__.a2cee23bf4da4435cb29.ttf",
-    "static/media/digitsBG.png": "./static/media/digitsBG.d7aa08819e8e8ddbea0c.png",
-    "static/media/Nueva-Std.ttf": "./static/media/Nueva-Std.ed5aa917a8e78957a54e.ttf",
-    "static/media/Nueva-Std-Bold-Condensed.ttf": "./static/media/Nueva-Std-Bold-Condensed.c5e3858a6126bd67233a.ttf",
-    "index.html": "./index.html",
-    "main.19b5e3d0.css.map": "./static/css/main.19b5e3d0.css.map",
-    "main.2b5eaacd.js.map": "./static/js/main.2b5eaacd.js.map",
-    "787.6cef4065.chunk.js.map": "./static/js/787.6cef4065.chunk.js.map"
+    "main.css": "http://certificate.emojicoins.org/static/css/main.0f68baad.css",
+    "main.js": "http://certificate.emojicoins.org/static/js/main.ee8e89d7.js",
+    "static/js/787.6cef4065.chunk.js": "http://certificate.emojicoins.org/static/js/787.6cef4065.chunk.js",
+    "static/media/003.gif": "http://certificate.emojicoins.org/static/media/003.bd176252813e2d2d2505.gif",
+    "static/media/002.gif": "http://certificate.emojicoins.org/static/media/002.f3ce6896f24d05d4ce05.gif",
+    "static/media/001.gif": "http://certificate.emojicoins.org/static/media/001.e473c1f4f85021d4c4b9.gif",
+    "static/media/dotim5__.ttf": "http://certificate.emojicoins.org/static/media/dotim5__.a2cee23bf4da4435cb29.ttf",
+    "static/media/digitsBG.png": "http://certificate.emojicoins.org/static/media/digitsBG.d7aa08819e8e8ddbea0c.png",
+    "static/media/Nueva-Std.ttf": "http://certificate.emojicoins.org/static/media/Nueva-Std.ed5aa917a8e78957a54e.ttf",
+    "static/media/Nueva-Std-Bold-Condensed.ttf": "http://certificate.emojicoins.org/static/media/Nueva-Std-Bold-Condensed.c5e3858a6126bd67233a.ttf",
+    "index.html": "http://certificate.emojicoins.org/index.html",
+    "main.0f68baad.css.map": "http://certificate.emojicoins.org/static/css/main.0f68baad.css.map",
+    "main.ee8e89d7.js.map": "http://certificate.emojicoins.org/static/js/main.ee8e89d7.js.map",
+    "787.6cef4065.chunk.js.map": "http://certificate.emojicoins.org/static/js/787.6cef4065.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19b5e3d0.css",
-    "static/js/main.2b5eaacd.js"
+    "static/css/main.0f68baad.css",
+    "static/js/main.ee8e89d7.js"
   ]
 }
