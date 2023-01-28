@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Dotim5';
+    src: local('Dotim5'), url(./../fonts/dotim5__.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Nueva';
+    src: local('Nueva'), url(./../fonts/Nueva-Std.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'NuevaC';
+    src: local('NuevaC'), url(./../fonts/Nueva-Std-Bold-Condensed.ttf) format('truetype');
+}
+
+body {
+    background-color: #202020 !important;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    background-image: url(./../images/digitsBG.png);
+    -webkit-animation: backgroundScroll 60s linear 1;
+    animation: backgroundScroll 60s linear 1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -256px 0px;}
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.nav-link
+{
+    font-weight: bold !important;
+}
+
+.previewContainer
+{
+  max-width: 790px !important;
+  padding: 0px !important;
+}
+
+.header {
+    height: 100px;
+    align-content: center;
+    background-color: #111111;
+}
+
+.footer{
+    z-index: 10;
+    border-color:  rgb(255, 255, 255);
+    box-shadow: 0 0px 3px 0 rgba(255, 255, 255, 0.95), 0 0px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.coin-box
+{
+    margin:auto;
+    padding: 0px;
+    box-shadow: 0 0px 8px 0 rgba(255, 255, 255, 0.95), 0 0px 200px 200px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.certBackground1,
+.certBackground2,
+.certBackground3
+{
+    height: 1024px;
+    width: 724px;
+}
+
+.certBackground1
+{
+    background: url(../images/bg/001.gif);
+}
+
+.certBackground2
+{
+    background: url(../images/bg/002.gif);
+}
+
+.certBackground3
+{
+    background: url(../images/bg/003.gif);
+}
+
+.overlay1,
+.overlay2,
+.overlay3 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.overlay1
+{
+    background-color: rgba(184, 115, 51, 0.3);
+}
+.overlay2
+{
+    background-color: rgba(0, 0, 0, 0.0); 
+}
+.overlay3
+{
+    background-color: rgba(255, 215, 0, 0.3); 
+}
+
+.certPadding
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.flexHorisontal
+{
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+}
+
+.flexVertical
+{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.certCoinNoHeader
+{
+    font-family: NuevaC;
+    font-size:26px;
+    font-weight: 1000;
+    padding: 0px 2px;
+    text-align: right;
+}
+
+.certCoinNo
+{
+    font-size:16px;
+    font-weight: 1000;
+    font-family: Dotim5, serif;
+    padding: 5px 10px;
+}
+
+.certHeader
+{
+    font-family: NuevaC;
+    font-size: 42px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.certText
+{
+    font-family: NuevaC;
+    font-size: 18px;
+    font-weight: 1000;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.certHash
+{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Dotim5, serif;
+    text-align: center;
+}
+
+.certDetails
+{
+    align-items: flex-start; 
+}
+
+.certDetailsTitle
+{
+    font-family: NuevaC;
+    font-size: 24px;
+    padding: 0px 8px;    
+    display: flex;
+    align-self: flex-end;
+    height: 24px;
+}
+
+.certDetailsData
+{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Dotim5, serif;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    height: 20.9px;
+}
+
+.certDetailsDataS
+{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Dotim5, serif;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    height: 20.9px;
+}
+
+.certPicture
+{
+    display: inline-block;
+    float: left;
+}
+
+.certImage
+{
+    padding: 0px;
+    max-width: 144px;
+    width: 144px;
+    height: 144px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+}
+
+.errorPanel
+{
+    color: whitesmoke;
+}
+
+.errorPanelTable
+{
+    width: 500px;
+    margin:auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.errorPanelText
+{
+    padding: 20px !important;
+    margin: 20px !important;
+}
+
+.loadingPanel
+{
+    color: whitesmoke;
+}
+
+.text-justify 
+{
+    text-align: justify;
+}
