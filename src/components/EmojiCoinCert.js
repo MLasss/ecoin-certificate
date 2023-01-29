@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Error from './Error';
+import ImageWithReload from './ImageWithReload';
 
 const defaultGateway = process.env.REACT_APP_DEFAULT_GATEWAY;
 
@@ -32,9 +33,7 @@ export default class EmojiCoinCert extends Component {
     const json = require(`../json/faces.json`);
     const data = json.faces.find(face => face.templateId === this.props.coinId);
     if (data == null) { this.setState({ error : 'incorrect emojiCoin id was provided.'}); return; }
-    console.log(data);
     const background = this.getBackGround(data.coinTypeId);
-    console.log(background);
     this.setState({ data: data, isLoading: false, background: background }); 
   }
 
@@ -120,7 +119,7 @@ with NFT for personal and commercial use as defined on document</div>
                             </div>                                                                             
                         </div>
                         <div style={{paddingTop:'9px'}} className="certPicture">
-                            <img className="certImage" src={defaultGateway + "/ipfs/" + (this.state.data != null ? this.state.data.certCoinCID : null) } alt="" />
+                            <ImageWithReload src={defaultGateway + "/ipfs/" + (this.state.data != null ? this.state.data.certCoinCID : null) }/>
                         </div>
                     </div>                                     
                     <div style={{height:'20px'}}></div>
@@ -173,7 +172,7 @@ with NFT for personal and commercial use as defined on document</div>
                             </div>                                                      
                         </div>
                         <div style={{paddingTop:'9px'}} className="certPicture">
-                            <img className="certImage" src={defaultGateway + "/ipfs/" + (this.state.data != null ? this.state.data.certFaceCID : null) } alt="" />
+                            <ImageWithReload src={defaultGateway + "/ipfs/" + (this.state.data != null ? this.state.data.certFaceCID : null) }/>
                         </div>
                     </div>                        
                 </div>
